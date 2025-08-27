@@ -4,7 +4,6 @@ from aiogram.types import Message
 
 router = Router()
 
-
 @router.message(CommandStart())
 async def handle_start(message: Message):
     await message.answer("Salom botimizga xush kelibsiz!")
